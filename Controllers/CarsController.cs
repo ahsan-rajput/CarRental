@@ -4,7 +4,7 @@ using CarRental.Models;
 namespace CarRental.Controllers
 
 {
-    public class CarController : Controller
+    public class CarsController : Controller
     {
         private static List<Car> availableCars = new List<Car>
         {
